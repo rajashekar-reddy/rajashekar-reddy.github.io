@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajashekar Reddy - Portfolio : Python Developer</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+     <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+	
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div class="user">
+        <img src="images/raj_profile.jpg" alt="">
+        <h3 class="name">Rajashekar Reddy</h3>
+        <p class="post">Python Developer</p>
+		<p class="post">ML, Cloud Computing Enthusiast</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h3>HI THERE !</h3>
+    <h1>I'M <span> Rajashekar Reddy</span></h1>
+    <p>
+		Python developer - With 5+ years experience working with Agile and Development of applications. Offering strong programming skill and OOPs concept in Python. 
+		Having basic knowledge on  AI/ ML, Cloud computing and web development. Working experience in Unix/Linux environment and good at Shell Scripting.
+	</p><p>Team player with strong oral and written communication skills and an analytical and problem solving aptitude. Seeking for Python Developer/ Software Engineer position in a well-established IT farm to work with real-time projects.
+Highly motivated individual with proven leadership skills. Always indulged into coding and learning new technologies.
+    </p>
+    <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> <span>About</span> Me </h1>
+
+<div class="row">
+
+    <div class="info">
+        <h3> <span> Name : </span> Rajashekar Reddy </h3>
+        <h3> <span> Age : </span> 27 </h3>
+        <h3> <span> Qualification : </span> B.Tech. </h3>
+        <h3> <span> Company/ Designation : </span> TCS, IT Analyst (Since 2016) </h3>
+        <h3> <span> Language : </span> English, Hindi & Telugu </h3>
+        <a href="#"><button class="btn" onclick="window.open('rajashekar_resume.pdf')"> Download CV <i class="fas fa-download"></i> </button></a>
+    </div>
+
+    <div class="counter">
+
+        <div class="box" title="3.27 Years of Industry Experience">
+            <span>5+</span>
+            <h3>Years Of Experience</h3>
+        </div>
+
+        <div class="box">
+            <span>4</span>
+            <h3>Projects Completed</h3>
+        </div>
+
+        <div class="box" title="1. Service & Commitment Award  2. Certificate of Appreciation 3. Innovation Pride Award 4. Special Initiative Award  5. Star Awards">
+            <span>5</span>
+            <h3>Awards won</h3>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+<h1 class="heading"> My <span>Education</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2010</span>
+        <h3>Secondary Education (10th) </h3>
+        <p>Model Mission High School</p>
+		<p> Mark obtained - 89% </p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2010 - 2012</span>
+        <h3>Higher Secondary Education (10+2)</h3>
+        <p>Sri Chaitanya Junior College</p>
+		<p> Mark obtained - 96.4% </p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2012 - 2016</span>
+        <h3>Bachelor of Technology</h3>
+        <p>Electronics and Communication Engineering</p>
+		<p>Institute - BVRIT (JNTUH)</p>
+		<p>Mark obtained - 77.31% </p>
+    </div>
+
+</div>
+
+</section>
+
+<!-- education section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+<h1 class="heading"> My <span>Portfolio</span> </h1>
+
+<div class="container">
+
+	<!-- Tab Links -->
+    <div class="tab">
+		<button class="tablinks" onclick="openCity(event, 'career')" id="defaultOpen">IT Experience</button>
+		<button class="tablinks" onclick="openCity(event, 'skills')">Technical Skills</button>
+		<button class="tablinks" onclick="openCity(event, 'hobby')">Personal Details</button>
+	</div>
+
+	<!-- Tab content -->
+	<div id="career" class="tabcontent">
+	  <h3>
+		<div>
+			<div style="float:left;">
+				<img src="images/tata.png" height="30" width="30" alt="TCS Logo" style="margin: 5px 10px; border-radius: 20px; display: inline-block;">
+			</div>
+			<div style="float:left; margin: 10px 5px; color: var(--yellow);">
+				Tata Consultancy Services (TCS)
+			</div>
+			<div style="float:right; margin: 10px 20px; color: var(--yellow);">2016 - Present</div>
+			<div style="clear: left;"/>
+		</div>	
+	  </h3>
+	  <div class="box-container">
+		<div class="box">
+			<i class="fas fa-briefcase"></i>
+			<span>2016 - 2017</span>
+			<h5>Assistant System Engineer - Trainee</h5>
+			<p>Release Verification Engineer</p>
+			<p>Worked on - Release verification of a Network Management product. </p>
+			<p>Technologies - Linux, Shell Scripting, Cloud Computing, Jenkins, Software Architecture</p>
+			<p>Learnings - Agile way of SDLC methodology. Introduced to various software technologies and designs used in building a huge product.</p>
+		</div>
+		<div class="box">
+			<i class="fas fa-briefcase"></i>
+			<span>2017 - 2018</span>
+			<h5>Assistant System Engineer</h5>
+			<p>Continuous Deployment Loop Engineer</p>
+			<p>Worked on - Responsible for end-to-end verification and reporting of different stages of the pipeline</p>
+			<p>Technologies - Linux, Shell Scripting, Cloud Computing, Jenkins, Devops Pipelines, Python, Test Automation</p>
+			<p>Learnings - Hands on experience with the CI/CD flow of software lifycycle and Test Automation.</p>
+			<p></p><p></p>
+		</div>
+		<div class="box">
+			<i class="fas fa-briefcase"></i>
+			<span>2018 - 2020 </span>
+			<h3>System Engineer</h3>
+			<p>Performance Testing Framework Developer</p>
+			<p>Worked on - A tool used by multiple teams across the organization to get system performance status reports</p>
+			<p>Technologies - Python, SQL, Python Test Frameworks(unittest, nose, pytest), Allure, Linux, Shell Scripting, Cloud Computing, Jenkins</p>
+			<p>Learnings - Hands on experience with developing, maintaining and supporting a framework end to end</p>
+			<p></p><p></p>
+		</div>
+		<div class="box">
+			<i class="fas fa-briefcase"></i>
+			<span>2020 (October) - Present</span>
+			<h3>IT Analyst</h3>
+			<p>Workload Generation Framework Developer/Technical Architect</p>
+			<p>Worked on - A tool used by multiple teams across the organization to perform load testing</p>
+			<p>Technologies - Python, SQL, Software Packaging, Linux, Shell Scripting, Cloud Computing, Jenkins</p>
+			<p>Learnings - Working as Technical Architect. Migration of framework with latest trends to provide optimizations and improvements.</p>
+			<p></p><p></p>
+		</div>
+		<p style="margin: 0px 20px">
+		I have joined TCS in September, 2016. After completing the training period, I have received an opportunity to work with a major telecom client on a Network Management Product.
+		I've got to work in different roles in the project which helped in understanding different layers of software lifycycle. I've got to work with some amazing people who have been inspirational.
+		</p>
+		<p style="margin: 0px 20px">
+		Currently, I am working as Technical Archtect/Lead Developer for an automation tool used by huge number of teams in our project. 
+		I'm always keen on learning and improving myself.
+	  </p>
+	  </div>
+	  
+	</div>
+
+	<div id="skills" class="tabcontent">
+	  <div class="box-container">
+		<div class="box">
+			<i class="fas fa-laptop-code"></i>
+			<span>Programming Languages</span>
+			<p></p>
+			<h5>C</h5>
+			<h5>Python</h5>
+			<h5>Shell Scripting</h5>
+			<h5>Rust(Beginner)</h5>
+			<p></p><p></p><p></p>
+		</div>
+		<div class="box">
+			<i class="fas fa-laptop-code"></i>
+			<span>Basics concepts of </span>
+			<h5>Machine Learning, AI & Data Science</h5>
+			<h5>Cloud computing - Openstack, Azure, AWS</h5>
+			<h5>Cloud Native - Docker, Kubernetes</h5>
+			<p></p><p></p>
+		</div>
+		<div class="box">
+			<i class="fas fa-laptop-code"></i>
+			<span>Database Knowledge</span>
+			<p></p><p></p>
+			<h5>SQL - MySQL & SQL Lite</h5>
+			<h5>NoSQL - MongoDB</h5>
+			<p></p><p></p><p></p><p></p><p></p>
+		</div>
+		<div class="box">
+			<i class="fas fa-laptop-code"></i>
+			<span>Web Technologies</span>
+			<p></p>
+			<h5>Flask framework</h5>
+			<h5>Bootstrap (HTML, CSS, JS)</h5>
+			<h5>REST API</h5>
+			<p></p><p></p>
+		</div>
+		<div class="box">
+			<i class="fas fa-laptop-code"></i>
+			<span>Operating Systems</span>
+			<p></p><p></p>
+			<h5>Linux - RHEL, Ubuntu, CentOS</h5>
+			<h5>Unix - Solaris</h5>
+			<h5>Windows - Vritualization, WSL</h5>
+			<p></p><p></p>
+		</div>
+		<div class="box">
+			<i class="fas fa-laptop-code"></i>
+			<span>Others</span>
+			<p></p><p></p>
+			<h5>Git, Gerrit, Github</h5>
+			<h5>VSCode, Pycharm </h5>
+			<h5>Jira, Confluence </h5>
+			<p></p><p></p>
+		</div>
+	  </div>
+	</div>
+
+	<div id="hobby" class="tabcontent">
+	<h3>
+		<div>
+			<div style="float:left; margin: 10px 5px; color: var(--yellow);">
+				Date Of Birth : 
+			</div>
+			<div style="float: left; margin: 10px 50px;">26th November, 1994</div>
+			<div style="clear: left;"/>
+		</div>	
+	  </h3>
+	  <h3>
+		<div>
+			<div style="float:left; margin: 10px 5px; color: var(--yellow);">
+				Permanent Address : 
+			</div>
+			<div style="float: left; margin: 10px 50px;">Hyderabad, India - 500010</div>
+			<div style="clear: left;"/>
+		</div>	
+	  </h3>
+	  
+	</div>
+
+</div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>Contact</span> Me </h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">Contact Info</h3>
+
+        <div class="info">
+            <h3> <i class="fas fa-envelope"></i> rajashekar.annareddy@gmail.com </h3>
+			<h3> <i class="fas fa-envelope"></i> rajashekar_reddy@live.com </h3>
+            <h3> <i class="fas fa-phone"></i> +91-8143331748 </h3>
+			<h3> <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/rajashekar-reddy-103316b5/" target="_blank"><i style="color: white; text-decoration: underline;">Linkedin Profile - Rajashekar Reddy</i></a> </h3>
+			<h3> <i class="fab fa-github"></i> <a href="https://github.com/rajashekar-reddy" target="_blank"> <i style="color: white; text-decoration: underline;">Github Profile - Rajashekar Reddy</i></a> </h3>
+            <h3> <i class="fas fa-map-marker-alt"></i> Telangana, India - 500010 </h3>
+        </div>
+
+    </div>
+
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="images/scroll_top.png" alt="Go To Top" height="30" width="30">
+</a>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
