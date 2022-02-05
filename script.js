@@ -46,8 +46,8 @@ function sendEmail() {
 	var body = "Name : " + name + "<br>Email ID : " + email + "<br>Company : " + company + "<br>Message : " + msg;
 	Email.send({
 		SecureToken : "8ef6b0a5-93be-4111-b023-91aaa59d7707",
-		To : "sudipsahu17@gmail.com",
-		From : "sudip.auto.mails@gmail.com",
+		To : "rajashekar.annareddy@gmail.com",
+		From : "rajashekar.annareddy@gmail.com",
 		Subject: sub,
 		Body: body
 	});
